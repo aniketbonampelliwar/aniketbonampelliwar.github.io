@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Box{
+height: 950px;
+width: 700px;
+margin: 0 auto;
+display: flex;
+justify-content: space-evenly;
+gap: 10px;
+align-items: center;
+background-color: rgb(255, 255, 255);
+border: 5px solid black;
+}
+.first{
+    height: 950px;
+    width: 340px;
+    background-color: rgb(45, 40, 40);
+    color: white;
+}
+/*Profile Pic*/
+#image{
+    position: relative;
+    margin-left:5%;
+
+}
+img{
+height: 150px;
+width: 150px;
+
+top: -200px;
+border-radius: 50%;
+
+margin-left: 66px;
+position: absolute;
+
+}
+.second{
+    height: 830px;
+    width: 460px;
+    color: black;
+    background-color: white;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-left: 3px solid rgb(236, 166, 34);
+    padding-left: 40px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    margin-top: 11px; 
+    margin-left: 50px;
+}
+.references{
+ margin-left: 43px;   
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.date{
+    display: flex;
+    gap: 90px;
+    font-size: 13px;
+    align-items: center;
+    justify-content: left;  
+}
+.date p{
+    margin-top: 25px;
+    
+}
+p{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    
+}
+h2{
+    margin-top: 40px;
+    display: flex;
+}
+h5{
+    margin-top: 20px;
+}
+.education{
+   margin-left: 43px; 
+}
+.about{
+    margin-top: 40px;
+    align-items: left;
+    justify-content: left;
+}
+.sec{
+   justify-content: left;
+   align-items: left
+   ;
+   
+}
+.experience{
+    margin-top: 40px;
+}
+.icons{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 12px; 
+    
+}
+.surname{
+  margin-left:5px;
+  color: #f19d02;
+}
+
+.skills{
+    width: 45%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.skill{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+   
+}
+.bar{
+    display: flex;
+    height: 5px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 1px solid black;
+}
+.innerbar{
+    height: 5px;
+    width: 70px;
+    background-color: orange;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.triangle_top-left {
+    width: 0px;
+    height: 0px;
+    border-top: 250px solid orange;
+    border-right: 264px solid transparent;
+   
+  }
+
